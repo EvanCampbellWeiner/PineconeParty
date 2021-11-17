@@ -7,12 +7,10 @@
 <script>
 export default {
     computed: {
-    pineconeImage () {
+      pineconeImage () {
 
-      const fileName = Math.floor(Math.random()*29);
-
-      return require(`../assets/images/pinecone/pinecone${fileName}.jpg`) // the module request
-    }
-  }
+         return require(`../assets/images/pinecone/pinecone${Math.floor(Math.random()*29) }.jpg`) // the module request
+      }
+  },
 }
 </script>   
