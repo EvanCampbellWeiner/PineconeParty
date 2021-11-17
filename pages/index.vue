@@ -1,6 +1,6 @@
 <template>
    <div>
-      <div id="main" class="bg-gradient-to-t from-orange-200 to-blue-400 m-10">
+      <div id="main" class="bg-gradient-to-t from-orange-200 to-blue-400 m-10 w-full h-full">
          <NavBar/>
          <div id="collage" class="flex flex-col justify-center items-center m-10">
          <DynamicImage />
